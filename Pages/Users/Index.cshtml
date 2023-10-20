@@ -1,0 +1,228 @@
+﻿@page
+@model basakitaa.Pages.Users.IndexModel
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+<style>
+     /* ===============================Dashboard================================================== */
+     *{
+          margin: 0px;
+          padding: 0px;
+          box-sizing: border-box;
+          list-style: none;
+          text-decoration: none;
+          font-family: 'Josefin Sans', sans-serif;
+     }
+     body{
+
+          background: #f3f5f9;
+
+
+     }
+     input[type="radio"] {
+          display: none;
+     }
+     input[type="radio"] + label {
+          background-color: rgb(255, 255, 255);
+     }
+     input[type="radio"]:checked + label {
+          color: #495057;
+          font-weight: bold;
+          background-color: #9EB384;
+     }
+
+     input[type="radio"] + label {
+          padding: 5px 20px;
+          border-radius: 10px;
+     }
+     input[type="date"]{
+          padding: 5px 20px;
+          border-radius: 10px;
+          font-weight: bold;
+          border: 0px;
+     }
+
+     button a{
+         color: white;
+     }
+
+     button a:hover{
+         color: white;
+     }
+     .wrapper{
+          display: flex;
+          position: relative;
+
+     }
+
+     .wrapper .sidebar{
+          position: fixed;
+          width: 200px;
+          height: 100%;
+          background: rgb(255, 255, 255);
+          padding: 0px 0;
+
+     }
+     .wrapper .sidebar h2{
+          padding-top:5px;
+          color: #000000;
+          text-transform: uppercase;
+          text-align: center;
+          margin-bottom: 30px;
+     }
+     .wrapper .sidebar ul li{
+          padding: 15px;
+
+     }
+
+     .wrapper .sidebar ul li a{
+          color: #000000;
+          text-decoration:none;
+     }
+
+     .wrapper .sidebar ul li a .fas{
+          width: 25px;
+          text-decoration: none;
+     }
+
+     .wrapper .sidebar ul li:hover{
+          background-color: #594f8d;
+     }
+     
+     .wrapper .sidebar ul li:hover a{
+          color: #fff;
+          text-decoration: none;
+     }
+     
+     .wrapper .sidebar .social_media{
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          display: flex;
+     }
+
+     .wrapper .main_content{
+          width: 100%;
+          margin-left: 200px;
+     }
+
+     .wrapper .main_content .header{
+          padding: 20px;
+          background: #fff;
+          color: #717171;
+          border-bottom: 1px solid #e0e4e8;
+     }
+
+     .wrapper .main_content .info{
+          margin: 20px;
+          color: #717171;
+          line-height: 25px;
+     }
+
+     .wrapper .main_content .info div{
+          margin-bottom: 20px;
+     }
+     .wrapper .main_content .info .content{
+          background-color: #fafafa;
+          height: 100%;
+     }
+
+
+
+</style>
+
+<style>
+table, th, td {
+  border: 1px solid;
+}
+</style>
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>BASAKITA</h2>
+        <ul>
+            <li><a href="#"> Home </a></li>
+            <li><a href="#"> Data Diri</a></li>
+            <li><a href="#"> Titik Jemput </a></li>
+            <li><a href="#"> Daftar Bank Sampah</a></li>
+            <li><a href="#"> Form Pengajuan</a></li>
+            <li><a href="#"> Riwayat Transaksi</a></li>
+            <li><a href="#"> Detail Transaksi </a></li>
+        </ul>
+    </div>
+    <div class="main_content">
+        <div class="header"> Data Users </div>
+        <div class="info">
+            <div class="content">
+                <p>
+                    <button class="btn btn-primary"><a asp-page="Create">Create New</a></button>
+                </p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                <b> @Html.DisplayNameFor(model => model.User[0].nama) </b>
+                            </th>
+                            <th>
+                                <b> @Html.DisplayNameFor(model => model.User[0].jeniskelamin) </b>
+                            </th>
+                            <th>
+                                <b> @Html.DisplayNameFor(model => model.User[0].tanggallahir) </b>
+
+                            </th>
+                            <th>
+                                <b>  @Html.DisplayNameFor(model => model.User[0].alamat) </b>
+
+                            </th>
+                            <th>
+                                <b> @Html.DisplayNameFor(model => model.User[0].email) </b>
+
+                            </th>
+                            <th>
+                                <b> @Html.DisplayNameFor(model => model.User[0].password) </b>
+
+                            </th>
+                            <th> <b> Aksi </b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.User)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.nama)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.jeniskelamin)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.tanggallahir)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.alamat)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.email)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.password)
+                                </td>
+                                <td>
+                                    <button class="btn-warning"><a asp-page="./Edit" asp-route-id="@item.id">Edit</a></button> |
+                                    <button class="btn-danger"><a asp-page="./Delete" asp-route-id="@item.id">Delete</a></button> |
+                                    <button class="btn-info"><a asp-page="./Details" asp-route-id="@item.id">Details</a></button> 
+                                     
+                     
+                                    
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+</div>

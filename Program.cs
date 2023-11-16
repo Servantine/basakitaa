@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using basakitaa.Data;
 using Microsoft.AspNetCore.Authentication.Certificate;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

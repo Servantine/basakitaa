@@ -1,17 +1,36 @@
 {
   "Version": 1,
-  "Hash": "AkJUNxzpz8lGSoZtqC9MD+vgZI7+iMrDXu3S2cUYQec=",
+  "Hash": "tc95zbi+5ptwGzRDUUVSt4nBk80686qdCIHKHrAe6Wk=",
   "Source": "basakitaa",
   "BasePath": "_content/basakitaa",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\xampp\\htdocs\\progwebb\\ComponentLibrary\\ComponentLibrary.csproj",
+      "Version": 2,
+      "Source": "ComponentLibrary",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "basakitaa\\wwwroot",
       "Source": "basakitaa",
       "ContentRoot": "D:\\xampp\\htdocs\\progwebb\\basakitaa\\wwwroot\\",
       "BasePath": "_content/basakitaa",
+      "Pattern": "**"
+    },
+    {
+      "Name": "ComponentLibrary\\wwwroot",
+      "Source": "ComponentLibrary",
+      "ContentRoot": "D:\\xampp\\htdocs\\progwebb\\ComponentLibrary\\wwwroot\\",
+      "BasePath": "_content/ComponentLibrary",
       "Pattern": "**"
     }
   ],
@@ -1069,6 +1088,74 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\xampp\\htdocs\\progwebb\\ComponentLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ComponentLibrary.bundle.scp.css",
+      "SourceId": "ComponentLibrary",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\xampp\\htdocs\\progwebb\\ComponentLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/ComponentLibrary",
+      "RelativePath": "ComponentLibrary.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\xampp\\htdocs\\progwebb\\ComponentLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ComponentLibrary.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\xampp\\htdocs\\progwebb\\ComponentLibrary\\wwwroot\\background.png",
+      "SourceId": "ComponentLibrary",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\xampp\\htdocs\\progwebb\\ComponentLibrary\\wwwroot\\",
+      "BasePath": "_content/ComponentLibrary",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "D:\\xampp\\htdocs\\progwebb\\ComponentLibrary\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "ComponentLibrary",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\xampp\\htdocs\\progwebb\\ComponentLibrary\\wwwroot\\",
+      "BasePath": "_content/ComponentLibrary",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    },
+    {
+      "Identity": "D:\\xampp\\htdocs\\progwebb\\ComponentLibrary\\wwwroot\\jeep-yj.png",
+      "SourceId": "ComponentLibrary",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\xampp\\htdocs\\progwebb\\ComponentLibrary\\wwwroot\\",
+      "BasePath": "_content/ComponentLibrary",
+      "RelativePath": "jeep-yj.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jeep-yj.png"
     }
   ]
 }

@@ -5,8 +5,7 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = basakitaa
 build_property.RootNamespace = basakitaa
 build_property.ProjectDir = D:\xampp\htdocs\progwebb\basakitaa\
@@ -15,6 +14,22 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = D:\xampp\htdocs\progwebb\basakitaa
 build_property._RazorSourceGeneratorDebug = 
+
+[D:/xampp/htdocs/progwebb/basakitaa/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/xampp/htdocs/progwebb/basakitaa/Pages/ConsumeComponent1.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VtZUNvbXBvbmVudDEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/xampp/htdocs/progwebb/basakitaa/Pages/ConsumeComponent2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VtZUNvbXBvbmVudDIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/xampp/htdocs/progwebb/basakitaa/Pages/ConsumeComponent3.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VtZUNvbXBvbmVudDMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
 
 [D:/xampp/htdocs/progwebb/basakitaa/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s

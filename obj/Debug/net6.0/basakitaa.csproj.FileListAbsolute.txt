@@ -243,3 +243,14 @@ D:\xampp\htdocs\progwebb\basakitaa\bin\Debug\net6.0\runtimes\win\lib\net6.0\Syst
 D:\xampp\htdocs\progwebb\basakitaa\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\xampp\htdocs\progwebb\basakitaa\obj\Debug\net6.0\basakitaa.csproj.CopyComplete
 D:\xampp\htdocs\progwebb\basakitaa\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Certificate.dll
+D:\xampp\htdocs\progwebb\basakitaa\bin\Debug\net6.0\ComponentLibrary.staticwebassets.runtime.json
+D:\xampp\htdocs\progwebb\basakitaa\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+D:\xampp\htdocs\progwebb\basakitaa\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+D:\xampp\htdocs\progwebb\basakitaa\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\xampp\htdocs\progwebb\basakitaa\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+D:\xampp\htdocs\progwebb\basakitaa\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+D:\xampp\htdocs\progwebb\basakitaa\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\xampp\htdocs\progwebb\basakitaa\bin\Debug\net6.0\Microsoft.JSInterop.dll
+D:\xampp\htdocs\progwebb\basakitaa\bin\Debug\net6.0\System.IO.Pipelines.dll
+D:\xampp\htdocs\progwebb\basakitaa\bin\Debug\net6.0\ComponentLibrary.dll
+D:\xampp\htdocs\progwebb\basakitaa\bin\Debug\net6.0\ComponentLibrary.pdb
